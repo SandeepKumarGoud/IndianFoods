@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Page</title>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="HTML, CSS, JAVASCRIPT, JQUERY" >
+    <meta name="author" content="Chiranjeevi Sai Ibba">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="Registration.css" >
+</head>
+<body>
+    <div class="main-conatiner">
+        <div class="registration-cont">
+            <section class="section-one">
+                <h1 class="heading1">Looks like <span class="span1">you're new here!</span></h1>
+                <p class="para1">Sign up with your details to get started</p>
+            </section>
+            <secton class="section-two">
+                <form action="index.html" onsubmit=" return formValidate()" class="form-cont" >
+                    <h1 class="fill-out-heading">Fill out the below form to get started </h1>
+                    <div class="input-fields">
+                        <div>
+                            <input type="text" placeholder="First Name" id="fname" onblur="validate1()" >
+                            <span class="error" id="error1"></span>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Last Name" id="lname" onblur="validate2()" >
+                            <span class="error" id="error2"></span>
+                        </div>
+                        <div>
+                            <input type="text" onfocus="(this.type = 'date')" onblur="(this.type = 'text', validate3())" placeholder="Date Of Birth" id="dob" >
+                            <span class="error" id="error3"></span>
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Password" id="pwd" onblur="validate4()">
+                            <span class="error" id="error4"></span>
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Confirm Password" id="cnfPwd" onblur="validate5()">
+                            <span class="error" id="error5"></span>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Email" id="email" onblur="validate6()">
+                            <span class="error" id="error6"></span>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Phone Number" id="number" onblur="validate7()">
+                            <span class="error" id="error7"></span>
+                        </div>
+                        <div>
+                            <input list="country" type="text" placeholder="Country" id="countryName" onblur="validate8()">
+                            <datalist id="country">
+                                <option value="India">
+                                <option value="Pakistan">
+                                <option value="Sri lanka">
+                                <option value="Bangaldesh">
+                                <option value="China">
+                                <option value="United States">
+                                <option value="United Kingdom">
+                            </datalist>
+                            <span class="error" id="error8"></span>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn" >CONTINUE</button>
+                    <a href="index.html"><button type="button" class="existing-btn">Existing User? Log in</button></a>
+                </form>
+            </secton>
+        </div>
+    </div>
+    <script src="Registration.js"></script>
+</body>
+</html>

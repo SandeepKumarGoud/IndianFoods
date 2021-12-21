@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0px;
+}
+nav {
+    position: fixed;
+    top:0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 65px;
+    width:100vw;
+    font-family: Roboto;
+}
+.icon {
+    height:100px;
+    width: 200px;
+}
+.un-order-cont {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.li-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.li-item:hover {
+    font-size: 30px;
+}
+.logout-btn {
+    padding: 10px;
+    background-color: #EE7734 ;
+    border: 0px;
+    width:80px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color:#222222;
+}
+.slick {
+    margin:20px;
+    margin-top: 90px;
+}
+.slick-image {
+    width:100%;
+    height: 280px;
+}
+.content {
+    display: flex;
+}
+.section-one {
+    width:30%;
+}
+.section-two {
+    width:70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.item {
+    width:220px;
+    height:130px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.item-cont {
+    display: flex;
+    min-width:440px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.item-cont:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 6px;
+}
+.para1 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+}
+.para2 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+}
+.rupee-style {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 4px;
+}
+.rupee-cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.content-changer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow {
+    font-weight: bold;
+    font-size: 20px;
+    border: 1.5px solid #222222;
+    padding: 6px;
+    margin: 5px;
+}
+.page-text {
+    color:#222222;
+    font-weight: bold;
+}
+.adv {
+    width:80%;
+    padding: 20px;
+    margin: 20px;
+    font-family: Roboto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url('https://i.ibb.co/rw0YYDC/bg1.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+.span-adv {
+    align-self: center;
+    color: #ffffff;
+    font-size: 12px;
+    opacity: 0.5;
+}
+.web-text {
+    color: #ffffff;
+    font-size: 25px;
+}
+.open-now-text {
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-cont {
+    height:35vh;
+    width:100%;
+    background-color: #0E3067;
+    color:#ffffff;
+    font-family: Roboto;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.footer-item-cont {
+    list-style-type: none;
+}
+.item-heading {
+    font-size: 20px;
+}
+.footer-item-li {
+    font-size: 15px;
+    opacity: 0.6;
+    padding: 5px;
+}
+.footer-logo {
+    height:80px;
+    width:160px;
+}
+.footer-logo-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-line {
+    font-size: 16px;
+    padding-left: 10px;
+}
+#footer-icons {
+    font-size: 30px;
+    padding: 10px;
+}

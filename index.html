@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="HTML, CSS, JAVASCRIPT, JQUERY" >
+    <meta name="author" content="Chiranjeevi Sai Ibba">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="index.css" >
+</head>
+<body>
+    <div class="main-container">
+        <div class="icon-container">
+            <img class="icon" src="https://i.ibb.co/dmsp0R2/kisspng-logo-brand-sribu-com-laundry-detergent-logos-5aeebe61676864-3200986215255957454236.png" />
+            <h1 class="heading">Login Page</h1>
+        </div>
+        <form action="home.html" onsubmit=" return formSubmit()" id="loginForm" class="form-container" >
+            <div class="select-container">
+                <select class="select">
+                    <option>English</option>
+                    <option>Hindi</option>
+                </select>
+            </div>
+            <h1 class="heading2">Login in to your account</h1>
+
+            <div class="username-container">
+                <label class="username-label" for="username">USERNAME</label>
+                <input class="username" type="input" id="username" onblur="usernameCheck()" placeholder="Username or Email" />
+                <span id="error1"></span>
+            </div>
+
+            <div class="password-container">
+                <label class="password-label" for="password">PASSWORD</label>
+                <input class="password" type="password" id="password" onblur="passwordCheck()" placeholder="Password" />
+                <span id="error2"></span>
+            </div>
+
+            <div class="checkbox-forget-container">
+                <div class="checkbox-conatiner">
+                    <input type="checkbox" id="checkbox" />
+                    <label class="checkbox-label" for="checkbox">Keep me logged in for 30 days</label>
+                </div>
+                <p class="forgot-text">Forgot Password?</p>
+            </div>
+
+            <button class="login-button">Log In</button>
+
+            <p class="need-account-text">Need an account? 
+                <span class="sign-up-text"><a href="Registration.html">Sign up</a></span>
+            </p>
+        </form>
+
+        <p class="terms-text">Terms of use . Help . Privacy policy</p>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
